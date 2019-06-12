@@ -1,4 +1,4 @@
-FROM bitnami/wordpress:4
+FROM bitnami/wordpress:5
 
 RUN apt-get update; \
     apt-get install -y --no-install-recommends \
